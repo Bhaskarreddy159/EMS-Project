@@ -15,7 +15,7 @@ public class login {
 	 @PostMapping("login")
 	    public String login(@RequestParam("username") String username, @RequestParam("password") String password) {
 	        
-	    	if(username.equals("akhil") && password.equals("narra")) {
+	    	if(username.equals("bhaskar") && password.equals("reddy")) {
 	    		return "redirect:/Home";
 	    	}
 	        
